@@ -1,0 +1,7 @@
+.container-fluid {
+    background-image: url("../../images/halfmoon-betta-fish.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+}
