@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
+import MainContainer from "../components/MainContainer";
 import "./css/stylesheets.css"
 
 const Home = () => {
@@ -7,9 +8,9 @@ const Home = () => {
     <Container fluid>
       <Row>
         <Col size="md-6">
-          <Container id="homecontainer">
-            Welcome to Beta Bytes!
-            </Container>
+          <MainContainer id="homecontainer">
+            Welcome to <h1>Betta Bytes</h1>
+            </MainContainer>
         </Col>
         <Col size="md-6 sm-12">
           <Container />

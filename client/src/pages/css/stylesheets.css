@@ -1,7 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Tillana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Imbue&family=Jim+Nightshade&display=swap');
+
 .container-fluid {
     background-image: url("../../images/halfmoon-betta-fish.jpg");
     background-color: black;
-    background-repeat: no-repeat;
     background-position: right top;
-    margin-right: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    margin-right: 500px;
+    height: 100vh;
+}
+
+.maincontainer {
+    background-color: white;
+    width: 90%;
+    height: 100vh;
+    margin: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Jim Nightshade', cursive;
+}
+
+/* HOME STYLING */
+
+#homecontainer {
+    text-align: center;
 }

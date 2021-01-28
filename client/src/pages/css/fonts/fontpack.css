@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Gyosho';
+	src: url('./fonts/Gyosho.ttf'); /* IE9 Compat Modes */
+	src: url('./fonts/Gyosho.ttf') format('embedded-opentype'), /* IE6-IE8 */
+	     url('./fonts/Gyosho.ttf') format('woff'), /* Modern Browsers */
+	     url('./fonts/Gyosho.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('./fonts/Gyosho.ttf') format('svg'); /* Legacy iOS */
+	};
