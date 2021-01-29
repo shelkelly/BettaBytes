@@ -15,19 +15,90 @@
 
 .maincontainer {
     background-color: white;
-    width: 90%;
+    width: 100%;
     height: 100vh;
     margin: 20%;
     margin-top: 0;
     margin-bottom: 0;
+    overflow: auto;
 }
 
 h1 {
     font-family: 'Jim Nightshade', cursive;
 }
 
+p {
+    font-family: 'Tillana', cursive;
+    font-size: 16px;
+}
+
+/* NAVBAR STYLING */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
 /* HOME STYLING */
 
 #homecontainer {
     text-align: center;
+    border-right: 10px solid rgb(204, 121, 12);
+    border-left: 10px solid rgb(204, 121, 12);
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    border-bottom: 10px solid rgb(204, 121, 12);
+}
+
+/* FOR SALE STYLING */
+
+#fscontainer {
+    text-align: center;
+    border-right: 10px solid rgb(204, 121, 12);
+    border-left: 10px solid rgb(204, 121, 12);
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+/* BETTA BLOG STYLING */
+
+#bbcontainer {
+    text-align: center;
+    border-right: 10px solid rgb(204, 121, 12);
+    border-left: 10px solid rgb(204, 121, 12);
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
 }

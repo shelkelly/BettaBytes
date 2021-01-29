@@ -4,6 +4,11 @@ import DeleteBtn from "../components/DeleteBtn";
 import { Link } from "react-router-dom";
 import { useStoreContext } from "../utils/GlobalState";
 import { REMOVE_FAVORITE, LOADING, UPDATE_FAVORITES } from "../utils/actions";
+import MainContainer from "../components/MainContainer";
+import { Col, Row, Container } from "../components/Grid";
+import Banner from "../components/Banner";
+
+
 
 const FavoritesList = () => {
   const [state, dispatch] = useStoreContext();
@@ -25,8 +30,13 @@ const FavoritesList = () => {
   }, []);
 
   return (
-    <div className="container mb-5 mt-5">
-      <h1 className="text-center">Here's All of Your Favorite Posts</h1>
+    <Container fluid>
+      <Row>
+        <Col size="md-6">
+          <MainContainer id="homecontainer">
+            <Banner />
+            <Container id="textarea">
+      <h1 className="text-center">Favorite Fish</h1>
       {state.favorites.length ? (
         <List>
           <h3 className="mb-5 mt-5">Click on a post to view in detail</h3>
@@ -42,12 +52,21 @@ const FavoritesList = () => {
           ))}
         </List>
       ) : (
-        <h3>You haven't added any favorites yet!</h3>
+        <p>You don't have any favorite fishies yet!</p>
       )}
+      <p><img src="../images/fishinbag1.png"></img></p>
       <div className="mt-5">
         <Link to="home">Back to home</Link>
       </div>
-    </div>
+
+              </Container>
+          </MainContainer>
+        </Col>
+        <Col size="md-6 sm-12">
+          <Container />
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

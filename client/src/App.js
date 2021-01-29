@@ -6,18 +6,22 @@ import NoMatch from "./pages/NoMatch";
 import NavigationBar from "./components/NavigationBar";
 import { StoreProvider } from "./utils/GlobalState";
 import FavoritesList from "./pages/FavoritesList";
+import NavBar from "./components/NavBar";
+import BettaBlog from "./pages/BettaBlog";
+import ForSale from "./pages/ForSale";
 
 function App() {
   return (
     <Router>
       <div>
         <StoreProvider>
-          <NavigationBar />
+          <NavBar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/favorites" component={FavoritesList} />
-            <Route exact path="/posts/:id" component={Detail} />
+            <Route exact path="/Home" component={Home} />
+            <Route exact path="/ForSale" component={ForSale} />
+            <Route exact path="/Favorites" component={FavoritesList} />
+            <Route exact path="/BettaBlog" component={BettaBlog} />
             <Route component={NoMatch} />
           </Switch>
         </StoreProvider>

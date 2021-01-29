@@ -5,7 +5,7 @@ import "./css/stylesheet.css";
 // That way we don't have to define them all individually
 function Banner(props) {
   return (
-    <img src=""></img>
+    <img src="https://github.com/shelkelly/BettaBytes/blob/main/client/src/images/banner.png?raw=true" alt="Betta Bytes Banner" id="banner"></img>
   );
 }
 

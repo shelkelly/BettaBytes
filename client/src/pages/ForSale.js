@@ -4,21 +4,16 @@ import MainContainer from "../components/MainContainer";
 import Banner from "../components/Banner";
 import "./css/stylesheets.css"
 
-const NoMatch = () => {
+const ForSale = () => {
   return (
     <Container fluid>
       <Row>
         <Col size="md-6">
-          <MainContainer id="homecontainer">
+          <MainContainer id="bbcontainer">
             <Banner />
             <Container id="textarea">
-              <p></p>
-            <h1>404 Page Not Found</h1>
-            <h1>
-              <span role="img" aria-label="Face With Rolling Eyes Emoji">
-                🙄
-              </span>
-            </h1>
+              <p><h1>For Sale</h1></p>
+              <p>You've come to the right place.</p>
               </Container>
           </MainContainer>
         </Col>
@@ -30,4 +25,4 @@ const NoMatch = () => {
   );
 };
 
-export default NoMatch;
+export default ForSale;
