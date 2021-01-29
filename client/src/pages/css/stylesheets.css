@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Imbue&family=Jim+Nightshade&display=swap');
 
 .container-fluid {
-    background-image: url("../../images/halfmoon-betta-fish.jpg");
+    background-image: url("https://github.com/shelkelly/BettaBytes/blob/main/client/src/images/betta-fish.jpg?raw=true");
     background-color: black;
     background-position: right top;
     background-repeat: no-repeat;

@@ -54,7 +54,7 @@ const FavoritesList = () => {
       ) : (
         <p>You don't have any favorite fishies yet!</p>
       )}
-      <p><img src="../images/fishinbag1.png"></img></p>
+      <p><img src="https://github.com/shelkelly/BettaBytes/blob/main/client/src/images/Betta-Fish-Vector.jpg?raw=true"></img></p>
       <div className="mt-5">
         <Link to="home">Back to home</Link>
       </div>
