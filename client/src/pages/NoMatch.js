@@ -15,7 +15,7 @@ const NoMatch = () => {
               <p></p>
             <h1>404 Page Not Found</h1>
             <h1>
-              <img src="https://github.com/shelkelly/BettaBytes/blob/main/client/src/images/404fish.png?raw=true" id ="404pic" alt="404: Fish Skeleton"></img>
+              <img src="https://github.com/shelkelly/BettaBytes/blob/main/client/src/images/404fish.png?raw=true" id ="dedfish" alt="404: Fish Skeleton"></img>
             </h1>
               </Container>
           </MainContainer>

@@ -88,6 +88,12 @@ p {
     height: auto;
 }
 
+/* FAVORITES STYLING */
+
+#favfish {
+    max-width: 500px;
+}
+
 /* BETTA BLOG STYLING */
 
 #bbcontainer {
@@ -101,4 +107,9 @@ p {
 #banner {
     width: 100%;
     height: auto;
+}
+
+/* 404 STYLING */
+#dedfish {
+    max-width: 250px;
 }
